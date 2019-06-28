@@ -1,7 +1,8 @@
+//@flow
 import React from "react";
 import "./product.css";
 
-const ProductDetail = props => {
+const ProductDetail = (props:any) => {
   const url = `https://product-catalog-api.herokuapp.com/products/${
     props.match.params.id
   }`;

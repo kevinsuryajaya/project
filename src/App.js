@@ -1,3 +1,4 @@
+//@flow
 import React from "react";
 import NavBar from "./components/navbar/navbar";
 import { BrowserRouter } from "react-router-dom";

@@ -1,8 +1,9 @@
+//@flow
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./box.css";
 
-const Box = props => {
+const Box = (props:any) => {
   const { id, title, price, img } = props;
   return (
     <NavLink className="myBox" to={{ pathname: `/detail/` + id }}>

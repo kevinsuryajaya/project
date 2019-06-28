@@ -1,3 +1,4 @@
+//@flow
 import React from "react";
 import { Col } from "reactstrap";
 import CustomButton from "../../components/button/button";
